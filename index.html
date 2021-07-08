@@ -1,92 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
-  <title> Jenis's personal site</title>
+  <title>Jenis Patel</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Old+Standard+TT&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShaUM5SXMSvxfYCodrl1KtMKGNwJFjPHV5Yg&usqp=CAU" alt="profile img">
-        <h1>Jenis Patel </h1>
-      </td>
-
-      <td>
-        <h2> <a href="contectme.html"> contact me </a></h2>
-        <p> <em>Student at <a href="https://www.scranton.edu/"> University of Scranton.</a> </em> </p>
-      </td>
-    </tr>
-  </table>
-  <!-- Profile picture and name-->
-
-  <!-- _______________________________________________________________________________________________________________-->
-  <!-- Paragraph about Education-->
-
-  <p> Hey! My name is Jenis. I'm a software developer, currently pursuingmy Bachelor degree in Computer Science at <em> <strong>University of Scranton. </strong> </em></p>
-  <hr />
-  <h3><strong> Education </strong></h3>
-
-  <p>
-    <!-- Add table -->
-  <table cellspacing = "20">
-    <!-- create a tbale head to name-->
-    <thead>
-      <!-- add table row for heading cell-->
-      <tr>
-        <!-- add table heading cell-->
-        <th>
-          School
-        </th>
-        <th>Year</th>
-      </tr>
-    </thead>
-    <!-- creating a tbale <body></body>  -->
-    <tbody>
-
-    </tbody>
-    <tr>
-      <td>Scranton High School </td>
-      <td> (2015-2019)</td>
-    </tr>
-    <!-- add table row-->
-    <tr>
-      <!-- add data in <tr> XYZ< /tr>-->
-      <td>  University of Scranton. <br> <a href="educationpr.html"> Computer Science</a></td>
-
-      <td>(2019-2023)</td>
-    </tr>
-
-  </table>
-
-  </p>
-
-  <hr>
-  <h3><strong>Skills</strong></h3>
-  <table>
-    <tr>
-
-      <td>Java ⭐️⭐️⭐️⭐️</td>
-      <td> C# ⭐️⭐️⭐️</td>
-
-    </tr>
-
-    <tr>
-
-
-      <td>SQL ⭐️⭐️⭐️</td>
-      <td>HTML ⭐️⭐️⭐️⭐️</td>
-    </tr>
-    <tr>
-      <td>CSS </td>
-      <td> Javascipt ⭐️</td>
-    </tr>
+  <div class="header">
+    <h1 class="names"> I'm Jenis.</h1>
+    <h2 class="Passion">a <span class="pro">Pro</span>grammer</h2>
 
 
 
-  </table>
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile-pic" src="css/CS_animoji.png" alt="animoji-of-cs-man">
+      <h2>Hello.</h2>
+      <p class="intro">My name is Jenis. I'm currently an undergraduate pursuing my bachelor's in computer science and engineering in University of Scranton.</p>
+    </div>
+    <hr>
+    <div class="study">
+      <h2> <span> Education.</span></h2>
+      <div class="edu-row">
+        <img class="school" src="https://upload.wikimedia.org/wikipedia/en/9/92/University_of_Scranton_seal.png" alt="Img">
+        <h3>University Of Scranton.</h3>
+        <div class="Education">
 
+          <p class="info"> Pursuing bachelor's in computer science.
+            <span>⏺</span> <em>2019-2023.</em>
+          </p>
+          <ul class="list_unstly">
+            <b>Courses Taken:</b>
+            <ul class="disc">
+              <li> Object-oriented programming (oop).</li>
+              <li>Data structure and algorithm.</li>
+              <li> Machine Organ & Assembly Prog.</li>
+              <li> Theoretical Foundation of CMPS.</li>
+            </ul>
+          </ul>
+
+        </div>
+
+      </div>
+      <div class="skill-row">
+        <img class="LogoOfCodingSkill" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwvMVsHeiNpdX-GIloiUNO3iIIsGZvOJpRGQ&usqp=CAU" alt="LogoOfCoding." >
+        <h3>Programming Languages.</h3>
+        <table class="disc">
+          <tr>
+            <td>Java ⭐️⭐️⭐️⭐️</td>
+            <td> C# ⭐️⭐️⭐️</td>
+          </tr>
+          <tr>
+            <td>SQL ⭐️⭐️⭐️</td>
+            <td>HTML ⭐️⭐️⭐️⭐️</td>
+          </tr>
+          <tr>
+            <td>CSS ⭐️⭐️⭐️⭐️</td>
+            <td> Javascipt ⭐️</td>
+          </tr>
+        </table>
+        <p> I'm currently seeking for internship. I have stared coding since in 10th grade.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch.</h2>
+      <h3>Scranton, PA.</h3>
+      <p> <strong>The best or Nothing.</strong> <br>  -Mercedes-Benz</p>
+      <p class="contact-message">
+        I love to read messages and feed back. I will reply back ASAP.
+      </p>
+      <a class="btn" href="mailto:jenis.patel580@gmail.com">CONTACT ME 📨</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/jenis-patel-155784192">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/jenispatel5">Twitter</a>
+    <a class="FB-link" href="https://www.facebook.com/jenis.u.patel509">Facbook</a>
+
+
+    <p class="copyright">© 2021 Jenis Patel. </p>
+  </div>
 </body>
 
 </html>
+
