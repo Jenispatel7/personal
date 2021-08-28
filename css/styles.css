@@ -42,7 +42,7 @@ a:hover{
 }
 .header {
   height: 100vh;
-  background-image: url(mahadev_pic.jpeg);
+  background-image: url(https://i.pinimg.com/474x/1b/5e/31/1b5e319fd0840b30604b00493d243d18.jpg);
   background-attachment: fixed;
   background-size: cover;
 
@@ -54,7 +54,7 @@ a:hover{
 .Passion{
   font-size: 2.5rem;
   font-weight: normal;
-  color:  #66BFBF;
+  color:  #ffa500;
 }
 
 
@@ -95,7 +95,7 @@ a:hover{
   margin-left: 30px;
 }
 .study{
-  
+
   width: auto;
   line-height: 2;
 }
@@ -128,6 +128,7 @@ a:hover{
 }
 .names{
   padding-top: 300px;
+  color:#ffa500;
 }
 .btn {
   background: #5887a6;
@@ -180,3 +181,4 @@ a:hover{
   background: #3B5998;
   color: white;
 }
+
