@@ -12,7 +12,7 @@ hr{
   margin: 100px auto;
 }
 h1 {
-  font-size: 5.625rem;
+  font-size: normal;
   margin: 50px auto 0 auto ;
   line-height: 2;
   font-family: 'Great Vibes', cursive;
@@ -128,6 +128,7 @@ a:hover{
 }
 .names{
   padding-top: 300px;
+  font-size: 5.625rem
   color:#ffa500;
 }
 .btn {
@@ -181,4 +182,3 @@ a:hover{
   background: #3B5998;
   color: white;
 }
-
