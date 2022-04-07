@@ -16,7 +16,7 @@ h1 {
   margin: 50px auto 0 auto ;
   line-height: 2;
   font-family: 'Great Vibes', cursive;
-  color:  #66BFBF;
+  color:  #ff7a00;
 }
 
 h2 {
@@ -42,7 +42,7 @@ a:hover{
 }
 .header {
   height: 100vh;
-  background-image: url(https://i.pinimg.com/474x/1b/5e/31/1b5e319fd0840b30604b00493d243d18.jpg);
+  background-image: url(https://t4.ftcdn.net/jpg/04/75/67/67/360_F_475676739_4uSdpV10kGemUK6JN0MPrWLVOhxyZ49R.jpg);
   background-attachment: fixed;
   background-size: cover;
 
@@ -127,36 +127,23 @@ a:hover{
   margin: 40px auto 60px;
 }
 .names{
-  padding-top: 300px;
-  font-size: 5.625rem
-  color:#ffa500;
-}
-.btn {
-  background: #5887a6;
-  background-image: -webkit-linear-gradient(top, #5887a6, #215370);
-  background-image: -moz-linear-gradient(top, #5887a6, #215370);
-  background-image: -ms-linear-gradient(top, #5887a6, #215370);
-  background-image: -o-linear-gradient(top, #5887a6, #215370);
-  background-image: linear-gradient(to bottom, #5887a6, #215370);
-  -webkit-border-radius: 5;
-  -moz-border-radius: 5;
-  border-radius: 5px;
-  font-family: 'Old Standard TT', serif;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+  margin:0;
+  font-family:"Arial Black";
+  font-size:100px;
+  color:#fff;
+  text-shadow:1px 1px #dedede,
+    -2px 2px #dedede,
+    -3px 3px #dedede,
+    -4px 4px #dedede,
+    -5px 5px #dedede,
+    -6px 6px #dedede,
+    -7px 7px #dedede,
+    -8px 8px #dedede,
+    -9px 9px #dedede,
+    -10px 10px #dedede,
+    -12px 12px 25px rgba(0,0,0,0.5);
 }
 
-.btn:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  text-decoration: none;
-}
 .bottom-container{
   background-color:  #ff5f6d;
   padding: 50px 0 20px;
@@ -181,4 +168,103 @@ a:hover{
 .fa-facebook {
   background: #3B5998;
   color: white;
+}
+p span{
+  color:#ff7a00;
+  font-family:Georgia;
+  font-size:350%;
+  float:left;
+  line-height:85%;
+  padding-top:4px;
+  padding-right:4px;
+  margin-bottom:-10px;
+}
+
+.img-container{
+  margin: auto;
+  max-width:210px;
+  position:relative;
+  transform-origin:center -15%;
+  animation:swing 0.8s ease-in-out infinite alternate;
+}
+
+@keyframes swing{
+  from{
+    transform:rotate(-6deg);
+  }
+
+  to{
+    transform:rotate(6deg);
+  }
+}
+
+.img-container img{
+  max-width:100%;
+  box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+.img-container::before,
+.img-container::after{
+  content:"";
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+  top:-15%;
+  border:1px solid #131313;
+}
+
+.img-container::before{
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  background-color:#ff7a00;
+  box-shadow:0 0 10px rgba(255,122,0,0.8);
+}
+
+.img-container::after{
+  width:8px;
+  height:80px;
+  border-radius:10px;
+  z-index:-1;
+}
+
+.svg-link {
+  margin: auto;
+  color: #444;
+  font-family: helvetica;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 150px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  position: relative;
+
+}
+
+.svg-link svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.outline {
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: #4700d8;
+  fill: transparent;
+  stroke-dasharray: 59 235;
+  stroke-dashoffset: -235;
+  transition: all 0.9s;
+}
+
+.svg-link:hover {
+  color: #4700d8;
+}
+
+.svg-link:hover .outline {
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 379;
 }
